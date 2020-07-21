@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Milestones: Basic Tags with Style</title>
+
+    <style>
+      .blue-text {
+        color: blue;
+      }
+
+      #text-block > h2 {
+        color: red;
+      }
+
+      section.border {
+        border: solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Basic Tags</h1>
+
+    <section id="text-block">
+      <h2>Text Block Tags</h2>
+      <p>I'm a paragraph! &lt;p&gt;</p>
+      <blockquote>I'm a block quote! &lt;blockquote&gt;</blockquote>
+      <pre>I'm a preformatted text block! &lt;pre&gt;</pre>
+    </section>
+    <section id="inline-styling" class="border">
+      <h2>Inline Text Styling Tags</h2>
+      <p><em>This text</em> is emphasized! &lt;em&gt;</p>
+      <p><i class="blue-text">This text</i> is italic! &lt;i&gt;</p>
+      <p><strong>This text</strong> is strong! &lt;strong&gt;</p>
+      <p class="blue-text"><b>This text</b> is bold! &lt;b&gt;</p>
+      <p><code>This text</code> is code! &lt;code&gt;</p>
+    </section>
+    <section id="anchor">
+      <h2>Anchor tag</h2>
+      <p>
+        The anchor tag &lt;a&gt; can be used to create hyperlinks using the href attribute! It can be inline or freestanding!
+        <a href="https://www.w3schools.com/tags/tag_a.asp">Inline anchor</a>
+      </p>
+      <a href="https://www.w3schools.com/tags/tag_a.asp">Free anchor</a>
+    </section>
+    <section id="image">
+      <h2>Image Tag</h2>
+      <p>The image tag &lt;img&gt; can be used to get images from the internet or internal files using the src attribute! Have a frog!</p>
+      <img src="https://pbs.twimg.com/profile_images/639120110913912832/gkb4kJs0_400x400.jpg">
+    </section>
+    <section id="header" class="border">
+      <h2>Header Tags</h2>
+      <h1 class="blue-text">I'm an h1! &lt;h1&gt;</h1>
+      <h2>I'm an h2! &lt;h2&gt;</h2>
+      <h3>I'm an h3! &lt;h3&gt;</h3>
+      <h4>I'm an h4! &lt;h4&gt;</h4>
+      <h5>I'm an h5! &lt;h5&gt;</h5>
+      <h6>I'm an h6! &lt;h6&gt;</h6>
+    </section>
+    <section id="lists" class="blue-text border">
+      <h2>Lists</h2>
+      <ul>
+        List tags:
+        <li>&lt;ul&gt; unordered list (bullets)</li>
+        <li>&lt;ol&gt; ordered list (numbers)</li>
+        <li>&lt;li&gt; list item</li>
+      </ul>
+      <ul>
+        This is an unordered list
+        <li>Here's an item</li>
+        <li>and another</li>
+        <li>
+          Here's an item containing an ordered list!
+          <ol>
+            I'm an ordered list!
+            <li>I'm an ordered list item inside an unordered list item</li>
+          </ol>
+        </li>
+      </ul>
+      <ol>
+        I'm an ordered list
+        <li>boop</li>
+        <li>beep</li>
+        <li>
+          boop here's an unordered list!
+          <ul>
+            I'm an unordered list
+            <li>Weeeeee</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    <section id="tables">
+      <h2>Tables</h2>
+        <table>
+          <tr>
+            <th>A</th>
+            <th>B</th>
+            <th>C</th>
+          </tr>
+          <tr>
+            <td>a1</td>
+            <td>b1</td>
+            <td>c1</td>
+          </tr>
+          <tr>
+            <td>a2</td>
+            <td>b2</td>
+            <td>c2</td>
+          </tr>
+          <tr>
+            <td>a3</td>
+            <td>b3</td>
+            <td>c3</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>Pros</th>
+            <th>Cons</th>
+          </tr>
+          <tr>
+            <td>I'm a pro</td>
+            <td>I'm a con</td>
+          </tr>
+        </table>
+        <table>
+          <tr>
+            <th>I'm just a line!</th>
+          </tr>
+          <tr>
+            <td>yep</td>
+          </tr>
+          <tr>
+            <td>just a line</td>
+          </tr>
+        </table>
+    </section>
+  </body>
+</html>
