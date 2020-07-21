@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Milestones: Tag Anatomy</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="snippet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <nav>
+
+      </nav>
+    </header>
+    <h2>Snippet</h2>
+
+    <h3>Code</h3>
+    <div class="codebox">
+      <code>
+        &lt;p&gt; <br>
+        <span class="tab">Want to search the web?<br>
+        <span class="tab">Try &lt;a href="https://google.com" id="the-best-link" class="banana"  target="_blank"&gt;Google&lt;/a&gt;!<br>
+        &lt;/p&gt;
+      </code>
+    </div>
+
+    <h3>Result</h3>
+    <div class="resultbox">
+      <p>
+        Want to search the web?
+        Try <a href="https://google.com" id="the-best-link" class="banana"  target="_blank">Google</a>!
+      </p>
+    </div>
+
+    <h2>Explanation</h2>
+    <h3>Tags</h3>
+    <p>
+      Tags are used to indicate what type of content you're putting on your page.
+    </p>
+    <ul>
+      <li>&lt;p&gt;: This is the paragraph tag, used to indicate blocks of text.
+        <ul>
+          <li><a href="https://www.w3schools.com/tags/tag_p.asp">w3schools: p tag</a></li>
+          <li><a href="https://www.internetingishard.com/html-and-css/basic-web-pages/#paragraphs">Interneting is Hard</a></li>
+        </ul>
+      </li>
+      <li>&lt;a&gt;: This is the anchor tag, used to create a hyperlink using the href attribute.
+        <ul>
+          <li><a href="https://www.w3schools.com/tags/tag_a.asp">w3schools: p tag</a></li>
+          <li><a href="https://www.internetingishard.com/html-and-css/links-and-images/#anchors">Interneting is Hard</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>
+      The relationship between &lt;p&gt; and &lt;/p&gt; is fairly simple. The &lt;p&gt; marks the start of the paragraph object while
+      the &lt;/p&gt; marks the end. These are used like brackets or parentheses would be in other programming languages. Some tags
+      don't need to be closed with &lt;/[tag]&gt; but any that have content will.
+    </p>
+
+    <h3>Attributes</h3>
+    <p>
+      Atributes are used to define certain traits of your tags.
+    </p>
+    <ul>
+      <li>
+        href: This attribute is most commonly used to define the destination for a link. <br>
+        This href's value is "https://google.com", the address for Google.
+      </li>
+      <li>
+        id: This attribute assigns a specific identifier to the element. Each id value used on a page should be unique. <br>
+        This id, "the-best-link" can be used with a '#' symbol to help find this specific element.
+      </li>
+      <li>
+        class: This attribute is similar to id, but it is more general. The same class can be used multiple times. This helps assign
+        styles to multiple elements of different types. <br>
+        This class, "banana", can be accessed with a '.' symbol.
+      </li>
+    </ul>
+  </body>
+</html>
